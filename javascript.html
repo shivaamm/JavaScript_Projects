@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript</title>
+    <script>
+        document.write("<h2>Hiiii! This is my first javascript page</h2>");
+        console.log("hello");
+
+        function fn1()
+        {
+            var str1 = document.getElementById("text1").value;
+            var str2 = document.getElementById("text2").value;
+            if(str1==str2)
+            {
+                alert("Both having the same message");
+                document.write("Message typed was : " +str1);
+            }
+            else{
+                alert("Doesn't Match")
+            }
+           
+            
+        }
+    </Script>
+</head>
+<body>
+    <input id="text1" placeholder="Enter message">
+    <input type="password" id="text2" placeholder="Enter password"><br>
+    <button onclick="fn1()" id="btn1">Click here</button>
+    
+</body>
+</html>
