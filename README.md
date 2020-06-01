@@ -1,2 +1,2 @@
-Mini Projects to practise javascript.
+Mini Projects to practice javascript.
 Keep Learning
