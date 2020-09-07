@@ -1,2 +1,2 @@
-Mini Projects to practice javascript and D3.js
+Mini Projects to practice javascript.
 Keep Learning
